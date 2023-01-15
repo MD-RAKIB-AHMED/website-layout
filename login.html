@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            margin-right: 10px;
+            font-weight: 700;
+        }
+
+        .login-container {
+            display: flex;
+            justify-content: center;
+            margin: 60px;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        .login-form input {
+            margin-top: 15px;
+            font-size: 1.5em;
+            padding: 5px 10px;
+        }
+
+        .login-form input[type="button"] {
+            background-color: red;
+            border: 0px;
+            border-radius: 5px;
+            color: whitesmoke;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+                <a href="">Dashboard</a>
+                <a href="">Inventory</a>
+            </span>
+            <span>
+                <a href=""><i class="fa-solid fa-right-to-bracket"></i></a>
+                <a href=""><i class="fa-solid fa-user"></i></a>
+            </span>
+        </nav>
+    </header>
+    <section class="login-container">
+        <form class="login-form">
+            <h3>Please login</h3>
+            <input type="email" name="" id="" placeholder="Your Email" required>
+            <input type="password" name="" id="" placeholder="Password" required>
+            <input type="button" value="Login">
+    </section>
+
+
+    </form>
+
+</body>
+
+</html>
